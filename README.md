@@ -1,7 +1,7 @@
 <div align="center">
   <h1>JAVA-SERVICE-CALCULATOR</h1>  
   <p>
-    An api for a simple calculator made in JAVA.
+    A simple API to do common math operations in JAVA.
   </p>
 </div>
 
@@ -35,18 +35,18 @@ Go to the project directory
   cd JAVA-SERVICE-CALCULATOR
 ```
 
-Add the Apache Tomcat server on the services part on Apache Netbeans
+Add the Apache Tomcat server in the Services section of Netbeans
 
 ![image](https://user-images.githubusercontent.com/70600889/187322615-7fa43e68-cd58-40c7-994f-8f270b07decf.png)
 
-For testing you can use the nexts paths on Postman
+For testing you can use the following routes on Postman
 ```bash
   http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/sum  --for Sum
-  http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/subs  --for Sum
-  http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/multiply  --for multiply
-  http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/divide  --for Sum
+  http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/subs  --for Subtract
+  http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/multiply  --for Multiply
+  http://your-host:8080/JAVA_SERVICE_CALCULATOR/service/operation/divide  --for Divide
 ```
-And the next exaple for a json
+Use the following example in json for the operation you want
 ```bash
 {
     "number1": 123,
@@ -55,6 +55,6 @@ And the next exaple for a json
 ```
 
 <!-- Contact -->
-## Author
+## Author and contributors 
 
 Daniel Escobar - danesc21@gmail.com
