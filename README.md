@@ -34,6 +34,9 @@ Go to the project directory
 ```bash
   cd JAVA-SERVICE-CALCULATOR
 ```
+Add the libraries in the /lib directory to the project
+
+![image](https://user-images.githubusercontent.com/70600889/187324688-c75500f8-4b67-470b-8b67-141b8c869666.png)
 
 Add the Apache Tomcat server in the Services section of Netbeans
 
