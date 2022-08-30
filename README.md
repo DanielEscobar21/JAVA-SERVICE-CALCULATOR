@@ -1,7 +1,7 @@
 <div align="center">
   <h1>JAVA-SERVICE-CALCULATOR</h1>  
   <p>
-    A api for a simple calculator made in JAVA.
+    An api for a simple calculator made in JAVA.
   </p>
 </div>
 
